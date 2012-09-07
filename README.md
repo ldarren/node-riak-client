@@ -21,3 +21,26 @@ riak.get(CLIENT_ID, BUCKET, KEY, function(err, xhr){
 });
 
 ```
+
+Put
+===
+```javascript
+riak.put(CLIENT_ID, BUCKET, KEY, OPTION, function(err, xhr){
+});
+
+```
+
+Delete
+======
+```javascript
+riak.put(CLIENT_ID, BUCKET, KEY, OPTION, function(err, xhr){
+});
+
+```
+
+Map Reduce
+==========
+```javascript
+riak.query(CLIENT_ID).add(PHASE, TASK).add(PHASE, TASK).exec(function(err, xhr){
+});
+```
