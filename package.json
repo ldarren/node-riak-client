@@ -1,0 +1,11 @@
+{
+  "name": "node-riak-client",
+  "version": "0.0.1",
+  "description": "A lightweight riak client for node.js",
+  "main": "lib/riak.js",
+  "keywords": ["riak", "node.js"],
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/ldarren/node-riak-client.git"
+  } 
+}
